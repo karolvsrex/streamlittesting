@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "datachatbot"
+version = "0.1.0"
+description = ""
+authors = ["Donatien Thorez <donatienthorez@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.1"
+unstructured = {extras = ["all-docs"], version = "^0.10.12"}
+sentence-transformers = "^2.2.2"
+faiss-cpu = "^1.7.4"
+python-dotenv = "^1.0.0"
+streamlit = "^1.28.0"
+streamlit-chat = "^0.1.1"
+openai = "^1.3.9"
+langchain = "^0.0.350"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
